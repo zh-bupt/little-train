@@ -1,0 +1,77 @@
+程序已运行1秒
+当前的控制策略为交替优先
+公共轨道1未被占用
+公共轨道2未被占用
+train1:
+x:15.000000 y:8.500002 state:1 direction:4 istrain1:0
+train2:
+x:22.000000 y:2.000001 state:1 direction:2 istrain2:0
+train3:
+x:7.000000 y:6.000001 state:1 direction:2 istrain31:0 istrain33:0
+
+程序已运行2秒
+当前的控制策略为交替优先
+公共轨道1未被占用
+公共轨道2未被占用
+train1:
+x:15.000000 y:9.000004 state:1 direction:4 istrain1:0
+train2:
+x:20.899996 y:2.000001 state:1 direction:3 istrain2:0
+train3:
+x:7.000000 y:4.900002 state:1 direction:2 istrain31:0 istrain33:0
+
+程序已运行3秒
+当前的控制策略为交替优先
+公共轨道1未被占用
+公共轨道2未被占用
+train1:
+x:15.000000 y:9.500006 state:1 direction:4 istrain1:0
+train2:
+x:19.899992 y:2.000001 state:1 direction:3 istrain2:0
+train3:
+x:7.000000 y:3.900003 state:1 direction:2 istrain31:0 istrain33:0
+
+程序已运行4秒
+当前的控制策略为交替优先
+公共轨道1未被占用
+公共轨道2未被占用
+train1:
+x:15.000000 y:10.000008 state:0 direction:4 istrain1:1
+train2:
+x:18.899988 y:2.000001 state:1 direction:3 istrain2:0
+train3:
+x:7.000000 y:2.900004 state:1 direction:2 istrain31:0 istrain33:0
+
+程序已运行5秒
+当前的控制策略为交替优先
+1号公共轨道被1号车占用
+2号公共轨道被2号车占用
+train1:
+x:14.399998 y:10.000008 state:1 direction:3 istrain1:1
+train2:
+x:17.999985 y:2.000001 state:1 direction:3 istrain2:1
+train3:
+x:7.000000 y:2.000005 state:0 direction:2 istrain31:1 istrain33:0
+
+程序已运行6秒
+当前的控制策略为交替优先
+1号公共轨道被1号车占用
+2号公共轨道被2号车占用
+train1:
+x:13.899996 y:10.000008 state:1 direction:3 istrain1:1
+train2:
+x:16.999981 y:2.000001 state:1 direction:3 istrain2:1
+train3:
+x:7.000000 y:2.000005 state:0 direction:2 istrain31:1 istrain33:0
+
+程序已运行7秒
+当前的控制策略为交替优先
+1号公共轨道被1号车占用
+2号公共轨道被2号车占用
+train1:
+x:13.399994 y:10.000008 state:1 direction:3 istrain1:1
+train2:
+x:15.999977 y:2.000001 state:1 direction:3 istrain2:1
+train3:
+x:7.000000 y:2.000005 state:0 direction:2 istrain31:1 istrain33:0
+

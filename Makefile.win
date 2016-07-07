@@ -1,0 +1,49 @@
+# Project: 项目1
+# Makefile created by Dev-C++ 5.10
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = main.o trainrun.o statetrans.o input.o control.o output.o drawtrack.o drawtrain.o
+LINKOBJ  = main.o trainrun.o statetrans.o input.o control.o output.o drawtrack.o drawtrain.o
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib32" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -L"D:/Dev-Cpp/MinGW64/lib" -L"C:/Users/sjw/Desktop/57组火车调度系统版本2" -legg -lgdi32 -lmsimg32 -m32 -g3
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
+BIN      = 项目1.exe
+CXXFLAGS = $(CXXINCS) -m32 -g3
+CFLAGS   = $(INCS) -m32 -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+trainrun.o: trainrun.c
+	$(CC) -c trainrun.c -o trainrun.o $(CFLAGS)
+
+statetrans.o: statetrans.c
+	$(CC) -c statetrans.c -o statetrans.o $(CFLAGS)
+
+input.o: input.c
+	$(CC) -c input.c -o input.o $(CFLAGS)
+
+control.o: control.c
+	$(CC) -c control.c -o control.o $(CFLAGS)
+
+output.o: output.c
+	$(CC) -c output.c -o output.o $(CFLAGS)
+
+drawtrack.o: drawtrack.c
+	$(CC) -c drawtrack.c -o drawtrack.o $(CFLAGS)
+
+drawtrain.o: drawtrain.c
+	$(CC) -c drawtrain.c -o drawtrain.o $(CFLAGS)
